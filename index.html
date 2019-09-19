@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Special+Elite&display=swap" rel="stylesheet">
+  <!-- Necessary script for the timeline library -->
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/dist/css/app.min.css">
+  <title>Student Journeys</title>
+</head>
+
+<body>
+  <i class="fa fa-close close is-invisible"></i>
+  <h1 class="title">Student Journeys</h1>
+  <section class="students">
+    <div class="students-inner"></div>
+  </section>
+  <section class="student-timeline">
+    <div class="timeline">
+      <div class="timeline__wrap">
+        <div class="timeline__items"></div>
+      </div>
+    </div>
+  </section>
+  <section class="timeline-events">
+    <section class="cd-h-timeline js-cd-h-timeline margin-bottom-md">
+      <div class="timeline-card">
+
+        <div class="cd-h-timeline__container container">
+          <div class="cd-h-timeline__dates">
+            <div class="cd-h-timeline__line">
+              <!-- Timeline items container -->
+              <ol class="cd-h-timeline__items-list"></ol>
+              <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
+            </div>
+          </div>
+
+          <ul>
+            <li>
+              <a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a>
+            </li>
+            <li>
+              <a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="cd-h-timeline__events">
+          <!-- Timeline events container -->
+          <ol class="cd-h-timeline__events-list"></ol>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <script src="assets/js/util.js"></script>
+  <!-- util functions included in the CodyHouse framework -->
+  <script src="assets/js/swipe-content.js"></script>
+  <!-- A Vanilla JavaScript plugin to detect touch interactions -->
+  <script src="assets/js/cody-house-timeline.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.js" integrity="sha256-Up7eABHDPfisYNkMbk3BSJFTuxImIZt2+97gU/Am8zA="
+    crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>Í
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+{
+    "students": [
+        {
+            "id": "1",
+            "firstName": "Holly",
+            "lastName": "Johnson",
+            "displayName": "Holly Johnson",
+            "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png",
+            "socialLinks": {
+                "twitter": "https://twitter.com/home",
+                "github": "https://github.com/",
+                "linkedIn": "https://linkedin.com/",
+                "codepen": "https://codepen.com/"
+            },
+            "timeline": [
+                {
+                    "date": "05/07/2018",
+                    "type": "entered",
+                    "title": "Entered course"
+                }, 
+                {
+                    "date": "05/09/2018",
+                    "type": "project",
+                    "title": "Did something",
+                    "description": "Bla bla",
+                    "content": "<p>Bla bla bla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt. Amet facilisis magna etiam tempor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tortor consequat id porta nibh venenatis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Massa enim nec dui nunc mattis enim ut. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Duis at consectetur lorem donec massa. In aliquam sem fringilla ut morbi tincidunt augue interdum. In mollis nunc sed id semper risus in hendrerit gravida. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Arcu felis bibendum ut tristique et egestas quis. Enim ut tellus elementum sagittis vitae et leo duis ut. Nunc mi ipsum faucibus vitae aliquet nec.</p>"
+                },{
+                    "date":"05/07/2019",
+                    "type":"graduated",
+                    "title": "Graduated"
+                },{
+                    "date": "05/08/2019",
+                    "type":"employment",
+                    "title": "UX/UI Designer - Trimble",
+                    "description": "Bla bla",
+                    "content": "<p>Trimble is great and full on! I'm learning so much. My role there is very UI-focused so UX plays a huge part in what I do every day.</p><p>Having a solid understanding/appreciation of good UX design is essential; we maintain many complex business systems that are used by both dealers (who stock our hardware and software) and end customers who may never have used the products/applications before. These users are located all around the world and speak many different languages, so designing solutions that are intuitive for everybody is quite the task but is incredibly important.</p><p>So as much as learning about UX design can seem tedious, I really appreciate having been through the process, as now the principles are always in the back of my mind while I work on real-world applications that rely so heavily on getting that part right.</p>"
+                }
+            ]
+        }, {
+            "id": "2",
+            "firstName": "Geoff",
+            "lastName": "Sargison",
+            "displayName": "Geoff Sargison",
+            "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png",
+            "socialLinks": {
+                "twitter": "https://twitter.com/home",
+                "github": "https://github.com/",
+                "linkedIn": "https://linkedin.com/",
+                "codepen": "https://codepen.com/"
+            },
+            "timeline": [
+                {   
+                    "date": "05/07/2018",
+                    "title": "Entered course"
+                }, 
+                {
+                    "date": "06/07/2018",
+                    "type": "project",
+                    "title": "Driver",
+                    "slug": "driver"
+                },{
+                    "date":"05/08/2019",
+                    "title": "Graduated",
+                    "content": "<p>Bla bla bla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt. Amet facilisis magna etiam tempor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tortor consequat id porta nibh venenatis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Massa enim nec dui nunc mattis enim ut. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Duis at consectetur lorem donec massa. In aliquam sem fringilla ut morbi tincidunt augue interdum. In mollis nunc sed id semper risus in hendrerit gravida. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Arcu felis bibendum ut tristique et egestas quis. Enim ut tellus elementum sagittis vitae et leo duis ut. Nunc mi ipsum faucibus vitae aliquet nec.</p>"
+                },{
+                    "date": "05/08/2019",
+                    "title": "Got a job",
+                    "description": "Bla bla",
+                    "content": "<p>Got a job</p>"
+                }
+            ]
+        }, {
+            "id": "3",
+            "firstName": "TJ",
+            "lastName": "Lee",
+            "displayName": "TJ Lee",
+            "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png",
+            "socialLinks": {
+                "twitter": "https://twitter.com/home",
+                "github": "https://github.com/",
+                "linkedIn": "https://linkedin.com/",
+                "codepen": "https://codepen.com/"
+            },
+            "timeline": [
+                {
+                    "date": "05/07/2018",
+                    "title": "Entered course"
+                }, 
+                {
+                    "date": "03/10/2019",
+                    "title": "Did something",
+                    "description": "Bla bla",
+                    "content": "<p>Bla bla bla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt. Amet facilisis magna etiam tempor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tortor consequat id porta nibh venenatis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Massa enim nec dui nunc mattis enim ut. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Duis at consectetur lorem donec massa. In aliquam sem fringilla ut morbi tincidunt augue interdum. In mollis nunc sed id semper risus in hendrerit gravida. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Arcu felis bibendum ut tristique et egestas quis. Enim ut tellus elementum sagittis vitae et leo duis ut. Nunc mi ipsum faucibus vitae aliquet nec.</p>"
+                },{
+                    "date":"03/11/2019",
+                    "title": "Graduated",
+                    "content": "<p>Bla bla bla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt. Amet facilisis magna etiam tempor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tortor consequat id porta nibh venenatis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Massa enim nec dui nunc mattis enim ut. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Duis at consectetur lorem donec massa. In aliquam sem fringilla ut morbi tincidunt augue interdum. In mollis nunc sed id semper risus in hendrerit gravida. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Arcu felis bibendum ut tristique et egestas quis. Enim ut tellus elementum sagittis vitae et leo duis ut. Nunc mi ipsum faucibus vitae aliquet nec.</p>"
+                },{
+                    "date": "05/11/2019",
+                    "title": "Got a job",
+                    "description": "Bla bla",
+                    "content": "<p>Got a job</p>"
+                }
+            ]
+        }
+    ]
+}

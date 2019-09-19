@@ -1,0 +1,22 @@
+{
+  "name": "student-journeys",
+  "version": "1.0.0",
+  "description": "A timeline of student journeys at Yoobee School of Design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richjava/student-journeys.git"
+  },
+  "author": "Richard Lovell <richjavalabs@gmail.com> (http://richjava.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richjava/student-journeys/issues"
+  },
+  "homepage": "https://github.com/richjava/student-journeys#readme",
+  "dependencies": {
+    "codyhouse-framework": "^2.1.4"
+  }
+}

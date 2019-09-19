@@ -1,0 +1,25 @@
+@import 'vendor/cody-house';
+@import 'base/base';
+
+    
+    
+@import 'components/main';
+@import 'components/students';
+@import 'components/student';
+@import 'components/timeline';
+
+
+    /* App modifiers */
+
+    /* Timeline library has a "is-hidden" class with high specificity, so using "is-invisible" */
+
+    .is-invisible {
+      opacity: 0;
+    }
+
+    .is-top {
+      z-index: 2;
+      display: block;
+    }
+
+  

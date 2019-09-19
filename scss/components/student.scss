@@ -1,0 +1,62 @@
+.student {
+    position: absolute;
+    transition: all .7s ease;
+
+    &-avatar {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        box-sizing: border-box;
+        border: 5px white solid;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        cursor: pointer;
+        position: relative;
+        transition: all .7s ease;
+
+        img {
+            width: 100%;
+            height: auto;
+          }
+      }
+
+      &-name {
+        font-size: 100%;
+        margin: 10px 0 0 0;
+      }
+  }
+
+  .student-name,
+  .student-social {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+  }
+
+  .is-showcased {
+    top: 10% !important;
+    left: calc(50% - 105px) !important;
+  }
+
+  .is-showcased .student-avatar {
+    height: 150px;
+    width: 150px;
+  }
+
+  @keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+      transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      transform: translatey(0px);
+    }
+  }
+  

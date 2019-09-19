@@ -899,7 +899,8 @@ u, .text-underline {
   .text-component__block--outset:not(.text-component__block--right) {
     margin-left: calc(-5.25 * var(--space-unit));
   }
-  .text-component__block--left, .text-component__block--right {
+  .text-component__block--left,
+  .text-component__block--right {
     width: 50%;
   }
   .text-component__block--right.text-component__block--outset {
@@ -3658,6 +3659,13 @@ html:not(.js) .cd-h-timeline__navigation {
   background: none;
 }
 
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body,
 html {
   height: 100%;
@@ -3693,6 +3701,13 @@ span a {
 
 span a:hover {
   color: #ffffff;
+}
+
+/*** EXTEND ***/
+/* box-shadow */
+.timeline-content .gradient-list > li, .timeline-content .gradient-list > li::before {
+  -webkit-box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+          box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
 }
 
 .title {
@@ -3888,6 +3903,103 @@ span a:hover {
   font-size: .7em;
   padding: 10px 14px;
   background-color: #32a232;
+}
+
+/*** VARIABLES ***/
+/* Colors */
+.timeline-content .timeline-content-image {
+  margin: 100px 0;
+}
+
+.timeline-content .gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+  padding: 50px 0;
+}
+
+.timeline-content .gradient-list > li {
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  counter-increment: gradient-counter;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+}
+
+.timeline-content .gradient-list > li::before, .timeline-content .gradient-list > li::after {
+  background: linear-gradient(135deg, #83e4e2 0%, #a2ed56 100%);
+  border-radius: 1rem 1rem 0 1rem;
+  content: '';
+  height: 3rem;
+  left: -1rem;
+  overflow: hidden;
+  position: absolute;
+  top: -1rem;
+  width: 3rem;
+}
+
+.timeline-content .gradient-list > li::before {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  content: counter(gradient-counter);
+  color: #1d1f20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font: 900 1.5em/1 'Montserrat';
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0.125em 0.25em;
+  z-index: 1;
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+1):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+2):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+3):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+4):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+5):before {
+  background: linear-gradient(135deg, #a2ed56 0%, #fddc32 100%);
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+6):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+7):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+8):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+9):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+}
+
+.timeline-content .gradient-list > li:nth-child(10n+10):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0) 0%, rgba(253, 220, 50, 0) 100%);
+}
+
+.timeline-content .gradient-list > li + li {
+  margin-top: 2rem;
 }
 
 /* App modifiers */

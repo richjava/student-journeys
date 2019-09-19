@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../../vendor/cody-house-overrides.scss"
-    ],
-    "names": [],
-    "file": "cody-house-overrides.css"
-}

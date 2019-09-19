@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,cAAc;AAEd,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAQpB;;AANE,AAAD,eAAO,CAAC;EACJ,UAAU,EAAE,MAAM;EAClB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CACb",
-    "sources": [
-        "../../components/students.scss"
-    ],
-    "names": [],
-    "file": "students.css"
-}

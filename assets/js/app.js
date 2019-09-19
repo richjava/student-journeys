@@ -153,7 +153,6 @@ $(function () {
         itemHTMLString += content + `</div></li>`
         resolve(itemHTMLString);
       } else if (item.content) {
-        console.log('content')
         itemHTMLString += item.content;
       } else if (item.description) {
         console.log('desc')

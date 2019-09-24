@@ -3497,7 +3497,7 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
-  background: url(../img/cd-arrow.svg) no-repeat 0 0;
+  background: url(../../img/cd-arrow.svg) no-repeat 0 0;
 }
 
 .js .cd-h-timeline__navigation:hover {
@@ -3896,7 +3896,7 @@ span a:hover {
 }
 
 .tag-project {
-  background-color: #FFA500;
+  background-color: #ffa500;
 }
 
 .tag-job {
@@ -3909,6 +3909,12 @@ span a:hover {
 /* Colors */
 .timeline-content .timeline-content-image {
   margin: 100px 0;
+}
+
+.timeline-content-quote {
+  font-size: 1.4em;
+  color: orange;
+  font-style: italic;
 }
 
 .timeline-content .gradient-list {

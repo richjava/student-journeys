@@ -5,6 +5,7 @@ $blue: #83e4e2;
 $green: #a2ed56;
 $yellow: #fddc32;
 $white: #fafafa;
+$orange: #ffa500;
 
 .timeline-content {
     //need to make nested instead of using parent selector here 
@@ -13,7 +14,11 @@ $white: #fafafa;
       margin: 100px 0;
     }
 
-
+    &-quote {
+        font-size: 1.4em;
+        color: orange;
+        font-style: italic;
+    }
 
 //https://codepen.io/erinesullivan/pen/qGrdGV
 

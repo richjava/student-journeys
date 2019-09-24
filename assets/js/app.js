@@ -123,7 +123,7 @@ $(function () {
       } else {
         itemHTMLString += `"`;
       }
-      itemHTMLString += `>${item.date}</a></li>`;
+      itemHTMLString += `></a></li>`;
       return itemHTMLString;
     }
 

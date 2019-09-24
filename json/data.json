@@ -54,18 +54,22 @@
                     "title": "Entered course"
                 }, 
                 {
-                    "date": "06/07/2018",
+                    "date": "14/12/2018",
                     "type": "project",
                     "title": "Driver",
                     "slug": "driver"
+                }, {
+                    "date": "18/04/2018",
+                    "type": "project",
+                    "title": "Wellington Music",
+                    "slug": "wellington-music"
                 },{
-                    "date":"05/08/2019",
-                    "title": "Graduated",
-                    "content": "<p>Bla bla bla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt. Amet facilisis magna etiam tempor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tortor consequat id porta nibh venenatis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Massa enim nec dui nunc mattis enim ut. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Duis at consectetur lorem donec massa. In aliquam sem fringilla ut morbi tincidunt augue interdum. In mollis nunc sed id semper risus in hendrerit gravida. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Arcu felis bibendum ut tristique et egestas quis. Enim ut tellus elementum sagittis vitae et leo duis ut. Nunc mi ipsum faucibus vitae aliquet nec.</p>"
+                    "date":"11/07/2019",
+                    "title": "Graduated"
+            
                 },{
-                    "date": "05/08/2019",
+                    "date": "29/07/2019",
                     "title": "Got a job",
-                    "description": "Bla bla",
                     "content": "<p>Got a job</p>"
                 }
             ]

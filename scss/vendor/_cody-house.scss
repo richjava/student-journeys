@@ -10,7 +10,7 @@
 :root {
   // colors
   @include defineColorHSL(--cd-color-1, 0, 0%, 22%);   // Mine Shaft
-  @include defineColorHSL(--cd-color-2, 74, 93%, 32%); // Highland
+  @include defineColorHSL(--cd-color-2, 120, 53%, 42%); // Highland
   @include defineColorHSL(--cd-color-3, 0, 0%, 97%);   // Alabaster
 
   // font
@@ -246,6 +246,7 @@ body {
     display: block;
     font-style: italic;
     margin: var(--space-xs) auto;
+    padding-bottom: 50px;
 
     &::before {
       content: '- ';

@@ -3323,10 +3323,10 @@ mark {
   --cd-color-1-h: 0;
   --cd-color-1-s: 0%;
   --cd-color-1-l: 22%;
-  --cd-color-2: hsl(74, 93%, 32%);
-  --cd-color-2-h: 74;
-  --cd-color-2-s: 93%;
-  --cd-color-2-l: 32%;
+  --cd-color-2: hsl(120, 53%, 42%);
+  --cd-color-2-h: 120;
+  --cd-color-2-s: 53%;
+  --cd-color-2-l: 42%;
   --cd-color-3: hsl(0, 0%, 97%);
   --cd-color-3-h: 0;
   --cd-color-3-s: 0%;
@@ -3590,6 +3590,7 @@ body {
   display: block;
   font-style: italic;
   margin: var(--space-xs) auto;
+  padding-bottom: 50px;
 }
 
 .js .cd-h-timeline__event-date::before {
@@ -3703,6 +3704,10 @@ span a:hover {
   color: #ffffff;
 }
 
+.lottie-player {
+  margin: 0 auto 20px auto;
+}
+
 /*** EXTEND ***/
 /* box-shadow */
 .timeline-content .gradient-list > li, .timeline-content .gradient-list > li::before {
@@ -3733,7 +3738,7 @@ span a:hover {
 }
 
 .close {
-  position: absolute;
+  position: fixed;
   z-index: 3;
   top: 50px;
   right: 60px;
@@ -3900,15 +3905,17 @@ span a:hover {
 }
 
 .tag-job {
-  font-size: .7em;
-  padding: 10px 14px;
   background-color: #32a232;
+}
+
+.tag-internship {
+  background-color: #e24c60;
 }
 
 /*** VARIABLES ***/
 /* Colors */
 .timeline-content .timeline-content-image {
-  margin: 100px 0;
+  margin: 40px auto 80px auto !important;
 }
 
 .timeline-content-quote {
@@ -3922,7 +3929,7 @@ span a:hover {
   list-style: none;
   margin: 1.75rem 0;
   padding-left: 1rem;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .timeline-content .gradient-list > li {

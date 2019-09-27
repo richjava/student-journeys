@@ -11,7 +11,7 @@ $orange: #ffa500;
     //need to make nested instead of using parent selector here 
     //to increase specificity (to override vendor styles)
     .timeline-content-image {
-      margin: 100px 0;
+      margin: 40px auto 80px auto !important;
     }
 
     &-quote {
@@ -27,7 +27,7 @@ $orange: #ffa500;
   list-style: none;
   margin: 1.75rem 0;
   padding-left: 1rem;
-  padding: 50px 0;
+  padding: 30px 0;
   > li {
     background: white;
     border-radius: 0 0.5rem 0.5rem 0.5rem;

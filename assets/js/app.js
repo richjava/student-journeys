@@ -140,6 +140,9 @@ $(function () {
       if (item.type === 'employment') {
         itemHTMLString += `<span class="tag tag-job">${item.type}</span>`;
       }
+      if (item.type === 'internship') {
+        itemHTMLString += `<span class="tag tag-internship">${item.type}</span>`;
+      }
       itemHTMLString += `<h2>${item.title}</h2>
           <em class="cd-h-timeline__event-date">${item.date}</em>`;
 
@@ -170,7 +173,7 @@ $(function () {
     function getStudentHTMLString(student, index) {
       return `
         <div class="student">
-          <div data-id="${student.id}" class="student-avatar" style="z-index: ${index}">
+          <div title="${student.displayName}" data-id="${student.id}" class="student-avatar" style="z-index: ${index}">
             <img src="${student.imageUrl}" alt="${student.displayName}" />
           </div>
           <h1 class="student-name is-invisible">${student.displayName}</h1>

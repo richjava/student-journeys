@@ -5,7 +5,7 @@
             "firstName": "Holly",
             "lastName": "Johnson",
             "displayName": "Holly Johnson",
-            "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png",
+            "imageUrl": "assets/img/templates/student-1/holly.png",
             "socialLinks": {
                 "twitter": "https://twitter.com/home",
                 "github": "https://github.com/",
@@ -16,24 +16,31 @@
                 {
                     "date": "05/07/2018",
                     "type": "entered",
-                    "title": "Entered course"
+                    "title": "Entered course",
+                    "content": "<lottie-player class=\"lottie-player\"  src=\"https://assets10.lottiefiles.com/datafiles/HG7fJRv87EPgmTA/data.json\" background=\"transparent\" speed=\".8\"  style=\"width: 200px; height: 200px;\" autoplay ></lottie-player>"
+                },
+                {
+                    "date": "05/09/2018",
+                    "type": "internship",
+                    "title": "Vodafone Xone",
+                    "slug": "xone"
                 }, 
                 {
                     "date": "05/09/2018",
                     "type": "project",
-                    "title": "Did something",
-                    "description": "Bla bla",
-                    "content": "<p>Bla bla bla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt. Amet facilisis magna etiam tempor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tortor consequat id porta nibh venenatis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Massa enim nec dui nunc mattis enim ut. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Duis at consectetur lorem donec massa. In aliquam sem fringilla ut morbi tincidunt augue interdum. In mollis nunc sed id semper risus in hendrerit gravida. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Arcu felis bibendum ut tristique et egestas quis. Enim ut tellus elementum sagittis vitae et leo duis ut. Nunc mi ipsum faucibus vitae aliquet nec.</p>"
+                    "title": "Rotorua Adventure",
+                    "slug": "rad"
                 },{
                     "date":"05/07/2019",
                     "type":"graduated",
-                    "title": "Graduated"
+                    "title": "Graduated",
+                    "content": "<div class=\"timeline-content\"><lottie-player class=\"lottie-player\" src=\"json/lottie/lf30_editor_TrbzET.json\"  background=\"transparent\"  speed=\"1\"  style=\"width: 300px; height: 300px;\" autoplay ></lottie-player><p class=\"timeline-content-quote\">\"So as much as learning about UX design can seem tedious, I really appreciate having been through the process,</p><p>as now the principles are always in the back of my mind while I work on real-world applications that rely so heavily on getting that part right.</p></div>"
+                
                 },{
                     "date": "05/08/2019",
                     "type":"employment",
                     "title": "UX/UI Designer - Trimble",
-                    "description": "Bla bla",
-                    "content": "<p class=\"timeline-content-quote\">\"Trimble is great and full on! I'm learning so much. My role there is very UI-focused so UX plays a huge part in what I do every day.</p><p>\"Having a solid understanding/appreciation of good UX design is essential; we maintain many complex business systems that are used by both dealers (who stock our hardware and software) and end customers who may never have used the products/applications before. These users are located all around the world and speak many different languages, so designing solutions that are intuitive for everybody is quite the task but is incredibly important.</p><p>So as much as learning about UX design can seem tedious, I really appreciate having been through the process, as now the principles are always in the back of my mind while I work on real-world applications that rely so heavily on getting that part right.</p>"
+                    "content": "<div class=\"timeline-content\"><img class=\"timeline-content-image\" src=\"assets/img/templates/student-1/trimble.jpg\" alt=\"Trimble\"><p class=\"timeline-content-quote\">\"Trimble is great and full on! I'm learning so much. My role there is very UI-focused so UX plays a huge part in what I do every day.</p><p>\"Having a solid understanding/appreciation of good UX design is essential; we maintain many complex business systems that are used by both dealers (who stock our hardware and software) and end customers who may never have used the products/applications before. These users are located all around the world and speak many different languages, so designing solutions that are intuitive for everybody is quite the task but is incredibly important.</p></div>"
                 }
             ]
         }, {
@@ -41,7 +48,7 @@
             "firstName": "Geoff",
             "lastName": "Sargison",
             "displayName": "Geoff Sargison",
-            "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png",
+            "imageUrl": "assets/img/templates/student-2/geoff.png",
             "socialLinks": {
                 "twitter": "https://twitter.com/home",
                 "github": "https://github.com/",
@@ -51,7 +58,8 @@
             "timeline": [
                 {   
                     "date": "05/07/2018",
-                    "title": "Entered course"
+                    "title": "Entered course",
+                    "content": "<lottie-player class=\"lottie-player\"  src=\"https://assets10.lottiefiles.com/datafiles/HG7fJRv87EPgmTA/data.json\" background=\"transparent\" speed=\".8\"  style=\"width: 200px; height: 200px;\" autoplay ></lottie-player>"
                 }, 
                 {
                     "date": "14/12/2018",
@@ -65,12 +73,14 @@
                     "slug": "wellington-music"
                 },{
                     "date":"11/07/2019",
-                    "title": "Graduated"
+                    "title": "Graduated",
+                    "content": "<div class=\"timeline-content\"><lottie-player class=\"lottie-player\" src=\"json/lottie/lf30_editor_TrbzET.json\"  background=\"transparent\"  speed=\"1\"  style=\"width: 300px; height: 300px;\" autoplay ></lottie-player></div>"
             
                 },{
                     "date": "29/07/2019",
-                    "title": "Got a job",
-                    "content": "<p>Got a job</p>"
+                    "type": "employment",
+                    "title": "Web Developer - Digital Journey",
+                    "content": "<div class=\"timeline-content\"><img class=\"timeline-content-image\" src=\"assets/img/templates/student-2/digital-journey.png\" alt=\"Trimble\"></div>"
                 }
             ]
         }, {
@@ -78,7 +88,7 @@
             "firstName": "TJ",
             "lastName": "Lee",
             "displayName": "TJ Lee",
-            "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png",
+            "imageUrl": "assets/img/templates/student-3/tj.png",
             "socialLinks": {
                 "twitter": "https://twitter.com/home",
                 "github": "https://github.com/",
@@ -88,22 +98,21 @@
             "timeline": [
                 {
                     "date": "05/07/2018",
-                    "title": "Entered course"
+                    "title": "Entered course",
+                    "content": "<lottie-player class=\"lottie-player\"  src=\"https://assets10.lottiefiles.com/datafiles/HG7fJRv87EPgmTA/data.json\" background=\"transparent\" speed=\".8\"  style=\"width: 200px; height: 200px;\" autoplay ></lottie-player>"
                 }, 
                 {
                     "date": "03/10/2019",
-                    "title": "Did something",
-                    "description": "Bla bla",
-                    "content": "<p>Bla bla bla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt. Amet facilisis magna etiam tempor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tortor consequat id porta nibh venenatis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Massa enim nec dui nunc mattis enim ut. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Duis at consectetur lorem donec massa. In aliquam sem fringilla ut morbi tincidunt augue interdum. In mollis nunc sed id semper risus in hendrerit gravida. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Arcu felis bibendum ut tristique et egestas quis. Enim ut tellus elementum sagittis vitae et leo duis ut. Nunc mi ipsum faucibus vitae aliquet nec.</p>"
+                    "title": "Masumenu",
+                    "slug": "masu-menu"
                 },{
                     "date":"03/11/2019",
                     "title": "Graduated",
-                    "content": "<p>Bla bla bla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt. Amet facilisis magna etiam tempor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tortor consequat id porta nibh venenatis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Massa enim nec dui nunc mattis enim ut. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Duis at consectetur lorem donec massa. In aliquam sem fringilla ut morbi tincidunt augue interdum. In mollis nunc sed id semper risus in hendrerit gravida. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Arcu felis bibendum ut tristique et egestas quis. Enim ut tellus elementum sagittis vitae et leo duis ut. Nunc mi ipsum faucibus vitae aliquet nec.</p>"
+                    "content": "<p class=\"timeline-content-quote\"><lottie-player class=\"lottie-player\" src=\"json/lottie/lf30_editor_TrbzET.json\"  background=\"transparent\"  speed=\"1\"  style=\"width: 300px; height: 300px;\" autoplay ></lottie-player>\"Learning UX Design has been really useful.</p><p>\"The UX process has really helped me develop as a designer by helping me understand the ‘why’ in how we design things. It’s been really important about how to effectively target and market a product. Especially when my job focuses on small to medium sized business from every industry. So having skills that help with research and and understanding objectives have been really valuable. An example of a job I have at the moment is for a religious social service website that has A LOT of content to edit down and work with.</p>"
                 },{
                     "date": "05/11/2019",
-                    "title": "Got a job",
-                    "description": "Bla bla",
-                    "content": "<p>Got a job</p>"
+                    "title": "Web Designer - Attraction Studio",
+                    "content": "<div class=\"timeline-content\"><img class=\"timeline-content-image\" src=\"assets/img/templates/student-3/attraction-studio.jpg\" alt=\"Attraction Studio\"><p class=\"timeline-content-quote\">\"I use tools I’ve gained to help me with create a more robust product.</p><p>\"For instance, I design layouts in Adobe XD and Sketch and get feedback from designers and marketing staff. Understanding the clients needs and wants while balancing what the product we design for them will do.</p></div>"
                 }
             ]
         }

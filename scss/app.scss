@@ -1,4 +1,5 @@
 @import 'vendor/cody-house';
+@import 'base/variables';
 @import 'base/base';
 
 @import 'components/main';
@@ -6,6 +7,7 @@
 @import 'components/student';
 @import 'components/timeline';
 @import 'components/timeline-content';
+@import 'components/goto-btn';
 
     /* App modifiers */
 

@@ -3873,13 +3873,20 @@ span a:hover {
 }
 
 .timeline-card {
-  width: 1200px;
   border-radius: 10px;
   margin: 0 auto;
   background-color: #fff;
   padding: 50px;
+  margin: 0 20px;
   -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
           box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 1200px) {
+  .timeline-card {
+    width: 1200px;
+    margin: 0 auto;
+  }
 }
 
 .timeline-events {

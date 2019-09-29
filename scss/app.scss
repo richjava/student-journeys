@@ -1,5 +1,6 @@
 @import 'vendor/cody-house';
-@import 'base/variables';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
 @import 'base/base';
 
 @import 'components/main';

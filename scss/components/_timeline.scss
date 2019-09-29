@@ -1,10 +1,14 @@
 .timeline-card {
-    width: 1200px;
     border-radius: 10px;
     margin: 0 auto;
     background-color: #fff;
     padding: 50px;
+    margin: 0 20px;
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    @include desktop {
+      width: 1200px;
+      margin: 0 auto;
+    }
   }
 
   .timeline-events {

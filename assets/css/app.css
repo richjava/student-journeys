@@ -3764,10 +3764,17 @@ span a:hover {
   position: absolute;
   top: 20vh;
   left: 20vw;
-  font-family: 'Special Elite', cursive;
-  font-size: 3vw;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
+}
+
+.title h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 3vw;
+}
+
+.title h2 {
+  font-size: 1vw;
 }
 
 .title.is-left {
@@ -3775,7 +3782,7 @@ span a:hover {
   left: 10vw;
 }
 
-.title,
+.title h1, .title h2,
 .student-name {
   font-weight: lighter;
   text-transform: uppercase;

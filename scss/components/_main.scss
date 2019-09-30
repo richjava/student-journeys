@@ -2,8 +2,13 @@
     position: absolute;
     top: 20vh;
     left: 20vw;
-    font-family: 'Special Elite', cursive;
-    font-size: 3vw;
+    h1 {
+      font-family: 'Special Elite', cursive;
+      font-size: 3vw;
+    }
+    h2 {
+      font-size: 1vw;
+    }
     transition: all 1s ease;
     &.is-left {
       top: 10vh;
@@ -13,7 +18,7 @@
 
  
 
-  .title,
+  .title h1, .title h2,
   .student-name {
     font-weight: lighter;
     text-transform: uppercase;

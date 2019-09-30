@@ -8,53 +8,72 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Special+Elite&display=swap" rel="stylesheet">
   <!-- Necessary script for the timeline library -->
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <!-- <link
+  rel="stylesheet"
+  href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+/>
+<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script> -->
   <link rel="stylesheet" href="assets/dist/css/app.min.css">
   <title>Student Journeys</title>
 </head>
 
 <body>
-  <i class="fa fa-close close is-invisible"></i>
-  <h1 class="title">Student Journeys</h1>
-  <section class="students">
-    <div class="students-inner"></div>
-  </section>
-  <section class="student-timeline">
-    <div class="timeline">
-      <div class="timeline__wrap">
-        <div class="timeline__items"></div>
-      </div>
-    </div>
-  </section>
-  <section class="timeline-events">
-    <section class="cd-h-timeline js-cd-h-timeline margin-bottom-md">
-      <div class="timeline-card">
+  <div class="app">
 
-        <div class="cd-h-timeline__container container">
-          <div class="cd-h-timeline__dates">
-            <div class="cd-h-timeline__line">
-              <!-- Timeline items container -->
-              <ol class="cd-h-timeline__items-list"></ol>
-              <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
+    <main>
+      <div class="action-btns">
+        <i id="close-btn" class="fa fa-close action-btn is-hidden"></i>
+        <i id="back-btn" class="fa fa-arrow-left action-btn action-btn-abs is-hidden"></i>
+      </div>
+      <div class="main-wrapper">
+        <h1 class="title">Student Journeys</h1>
+        <section class="students">
+          <div class="students-inner"></div>
+        </section>
+        <section class="student-timeline">
+          <div class="timeline">
+            <div class="timeline__wrap">
+              <div class="timeline__items"></div>
             </div>
           </div>
+        </section>
+        <section class="timeline-events">
+          <section class="cd-h-timeline js-cd-h-timeline margin-bottom-md">
+            <div class="timeline-card">
 
-          <ul>
-            <li>
-              <a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a>
-            </li>
-            <li>
-              <a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a>
-            </li>
-          </ul>
-        </div>
+              <div class="cd-h-timeline__container container">
+                <div class="cd-h-timeline__dates">
+                  <div class="cd-h-timeline__line">
+                    <!-- Timeline items container -->
+                    <ol class="cd-h-timeline__items-list"></ol>
+                    <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
+                  </div>
+                </div>
 
-        <div class="cd-h-timeline__events">
-          <!-- Timeline events container -->
-          <ol class="cd-h-timeline__events-list"></ol>
-        </div>
+                <ul>
+                  <li>
+                    <a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a>
+                  </li>
+                  <li>
+                    <a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="cd-h-timeline__events">
+                <!-- Timeline events container -->
+                <ol class="cd-h-timeline__events-list"></ol>
+              </div>
+            </div>
+          </section>
+        </section>
       </div>
-    </section>
-  </section>
+    </main>
+    <aside>
+        <iframe id="project-if" width="100%" height="100vh" frameBorder="0">Browser not compatible.</iframe>
+    </aside>
+  </div>
+  
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="assets/js/util.js"></script>
   <!-- util functions included in the CodyHouse framework -->
@@ -65,7 +84,10 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.js" integrity="sha256-Up7eABHDPfisYNkMbk3BSJFTuxImIZt2+97gU/Am8zA="
     crossorigin="anonymous"></script>
-    <script src="assets/js/app.js"></script>Í
+    <script>
+    // new SimpleBar($('.main-wrapper')[0]);
+    </script>
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>

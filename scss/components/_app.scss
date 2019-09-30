@@ -1,0 +1,45 @@
+.app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100vw + 90vw);
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .app main {
+    position: relative;
+    width: 100vw;
+  }
+  
+  .app aside {
+    width: 90vw;
+    left: -90vw;
+    background-color: #111;
+    overflow-y: hidden;
+  }
+  
+  .app aside iframe {
+    height: 100vh;
+  }
+  
+  .app .main-wrapper {
+    overflow-y: auto;
+  }
+  
+  .app .main-wrapper.is-relative {
+    position: relative;
+  }
+  
+  .app .main-wrapper, .app aside {
+    overflow-x: hidden;
+  }
+  
+  .app.is-open {
+    left: -90vw !important;
+  }

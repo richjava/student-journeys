@@ -7,10 +7,9 @@
             "displayName": "Holly Johnson",
             "imageUrl": "assets/img/templates/student-1/holly.png",
             "socialLinks": {
-                "twitter": "https://twitter.com/home",
-                "github": "https://github.com/",
-                "linkedIn": "https://linkedin.com/",
-                "codepen": "https://codepen.com/"
+                "github": "https://github.com/hollynz",
+                "linkedIn": "https://www.linkedin.com/in/holly-johnson-nz/",
+                "instagram": "https://www.instagram.com/hollaylay/"
             },
             "timeline": [
                 {
@@ -51,10 +50,8 @@
             "displayName": "Geoff Sargison",
             "imageUrl": "assets/img/templates/student-2/geoff.png",
             "socialLinks": {
-                "twitter": "https://twitter.com/home",
-                "github": "https://github.com/",
-                "linkedIn": "https://linkedin.com/",
-                "codepen": "https://codepen.com/"
+                "github": "https://github.com/sargimo",
+                "linkedIn": "https://www.linkedin.com/in/geoff-sargison-71671818a/?originalSubdomain=nz"
             },
             "timeline": [
                 {   
@@ -91,10 +88,10 @@
             "displayName": "TJ Lee",
             "imageUrl": "assets/img/templates/student-3/tj.png",
             "socialLinks": {
-                "twitter": "https://twitter.com/home",
-                "github": "https://github.com/",
-                "linkedIn": "https://linkedin.com/",
-                "codepen": "https://codepen.com/"
+                "github": "https://github.com/CitrusPanda94",
+                "linkedIn": "https://www.linkedin.com/in/citruspanda/?originalSubdomain=nz",
+                "instagram": "https://www.instagram.com/citruspandadesign/",
+                "behance": "https://www.behance.net/citruspanda"
             },
             "timeline": [
                 {

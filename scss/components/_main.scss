@@ -5,12 +5,13 @@
     font-family: 'Special Elite', cursive;
     font-size: 3vw;
     transition: all 1s ease;
+    &.is-left {
+      top: 10vh;
+      left: 10vw;
+    }
   }
 
-  .title.is-left {
-    top: 10vh;
-    left: 10vw;
-  }
+ 
 
   .title,
   .student-name {
@@ -19,14 +20,6 @@
     color: #eeeeee;
   }
 
-  .close {
-    position: fixed;
-    z-index: 3;
-    top: 50px;
-    right: 60px;
-    color: #fff;
-    font-size: 54px;
-    cursor: pointer;
-    opacity: 1;
-    transition: opacity .3s ease;
-  }
+  
+
+ 

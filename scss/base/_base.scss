@@ -3,12 +3,10 @@
 *:after {
   box-sizing: border-box;
 }
-
 body,
     html {
-      height: 100%;
-      margin: 0;
-      padding: 0;
+      height: 100vh;
+      overflow: hidden;
       font-family: 'Helvetica', sans-serif;
       background: rgb(26, 188, 156);
       background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
@@ -22,13 +20,13 @@ body,
     h3,
     p {
       font-family: 'Open Sans', sans-serif;
-      color: #333;
+      color: $darkgray;
     }
 
 
     p {
       font-weight: light;
-      color: #333333;
+      color: $darkgray;
     }
 
     span a {

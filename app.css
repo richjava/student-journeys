@@ -3721,7 +3721,7 @@ span a:hover {
   width: calc(100vw + 90vw);
   position: absolute;
   top: 0;
-  left: 0;
+  left:.app 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   height: 100vh;
@@ -4066,7 +4066,7 @@ span a:hover {
   padding: 0;
   font-size: inherit;
   font-family: inherit;
-  margin: 1em 0;
+  margin-top: 1em;
   width: 20rem;
   height: auto;
 }
@@ -4149,7 +4149,7 @@ span a:hover {
   top: 0;
   left: 0;
   height: 100px;
-  width: 94vw;
+  width: 95vw;
 }
 
 .action-btns .action-btn {

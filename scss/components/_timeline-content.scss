@@ -1,6 +1,5 @@
     /*** VARIABLES ***/
 /* Colors */
-$black: #1d1f20;
 $blue: #83e4e2;
 $green: #a2ed56;
 $yellow: #fddc32;
@@ -52,7 +51,7 @@ $white: #fafafa;
       align-items: flex-end;
       @extend %boxshadow;
       content: counter(gradient-counter);
-      color: $black;
+      color: $darkgray;
       display: flex;
       font: 900 1.5em/1 'Montserrat';
       justify-content: flex-end;

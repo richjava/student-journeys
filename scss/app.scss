@@ -3,18 +3,24 @@
 @import 'abstracts/mixins';
 @import 'base/base';
 
+@import 'components/app';
 @import 'components/main';
 @import 'components/students';
 @import 'components/student';
 @import 'components/timeline';
 @import 'components/timeline-content';
 @import 'components/goto-btn';
+@import 'components/action-btns';
 
     /* App modifiers */
 
     /* Timeline library has a "is-hidden" class with high specificity, so using "is-invisible" */
     .is-invisible {
       opacity: 0;
+    }
+
+    .is-hidden {
+      display: none;
     }
 
     .is-top {
